@@ -9,8 +9,9 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 25%;
-  height: 80vh;
+  margin-top: 50px;
+  gap: 20%;
+  height: 75vh;
 }
 
 .progress-container {
