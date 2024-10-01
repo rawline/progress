@@ -4,9 +4,11 @@
 
 <ul>
   <p>Настройка параметров реализована блгодоря методам:</p>
-  <li>setValue(value);</li>
-  <li>stopAnimation/startAnimation;</li>
-  <li>hide/show;</li>
+  <li>setValue(value)</li>
+  <li>stopAnimation</li>
+  <li>startAnimation</li>
+  <li>hide</li>
+  <li>show</li>
 </ul>
 
 Ссылка на деплой: <a href="https://rawline.github.io/progress/">https://rawline.github.io/progress/<a>
