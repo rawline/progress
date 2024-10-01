@@ -36,7 +36,6 @@ body {
 .progress-bar {
   fill: none;
   stroke: rgb(36, 103, 203);
-  /* Фиолетовый */
   stroke-width: 10;
   stroke-dasharray: 283;
   /* 2 * π * r (примерно 2 * 3.14 * 45) */
