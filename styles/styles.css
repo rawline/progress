@@ -1,3 +1,11 @@
+:root {
+  --color-primary: rgb(36, 103, 203);
+  --color-secondary: #eef1ff;
+  --color-background: #d4e7fd;
+  --color-border: #000;
+  --color-white: #ffffff;
+}
+
 body {
   font-family: Inter, sans-serif;
   padding: 30px;
@@ -29,13 +37,13 @@ body {
 
 .progress-background {
   fill: none;
-  stroke: #eef1ff;
+  stroke: var(--color-secondary);
   stroke-width: 10;
 }
 
 .progress-bar {
   fill: none;
-  stroke: rgb(36, 103, 203);
+  stroke: var(--color-primary);
   stroke-width: 10;
   stroke-dasharray: 283;
   /* 2 * π * r (примерно 2 * 3.14 * 45) */
@@ -77,17 +85,15 @@ body {
 
 input[type="number"] {
   -webkit-appearance: none;
-  /* Сброс внешнего вида по умолчанию */
   outline: none;
   appearance: none;
   margin: 0;
 }
 
-
 #progress-value {
   height: 50px;
   width: 80px;
-  border: solid 1px #000;
+  border: solid 1px var(--color-border);
   border-radius: 50px;
   text-align: center;
   font-size: 28px;
@@ -98,7 +104,7 @@ input[type="number"] {
   display: inline-block;
   width: 80px;
   height: 50px;
-  background-color: #d4e7fd;
+  background-color: var(--color-background);
   border-radius: 50px;
 }
 
@@ -128,8 +134,7 @@ input[type="number"] {
   height: 42px;
   width: 42px;
   border-radius: 50%;
-  background-color: #ffffff;
-
+  background-color: var(--color-white);
   transition: 0.2s;
 }
 
@@ -140,7 +145,7 @@ input::-webkit-inner-spin-button {
 }
 
 input:checked+.switcher_circle {
-  background-color: rgb(36, 103, 203);
+  background-color: var(--color-primary);
 }
 
 input:checked+.switcher_circle:before {
