@@ -6,3 +6,5 @@
 setValue(value);<br>
 stopAnimation/startAnimation;<br>
 hide/show;
+
+Ссылка на деплой: <a href="https://rawline.github.io/progress/">https://rawline.github.io/progress/<a>
