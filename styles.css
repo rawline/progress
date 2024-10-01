@@ -75,6 +75,15 @@ body {
   gap: 20px;
 }
 
+input[type="number"] {
+  -webkit-appearance: none;
+  /* Сброс внешнего вида по умолчанию */
+  outline: none;
+  appearance: none;
+  margin: 0;
+}
+
+
 #progress-value {
   height: 50px;
   width: 80px;
