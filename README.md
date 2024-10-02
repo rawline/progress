@@ -4,11 +4,11 @@
 
 <ul>
   <p>Настройка параметров реализована блгодоря методам:</p>
-  <li>setValue(value)</li>
-  <li>stopAnimation</li>
-  <li>startAnimation</li>
-  <li>hide</li>
-  <li>show</li>
+  <li>setValue(value): устанавливаем значение</li>
+  <li>stopAnimation: метод для остановки анимации</li>
+  <li>startAnimation: метод для старта анимации</li>
+  <li>hide: метод, который скрывает блок с экрана</li>
+  <li>show: метод, который делает скрытый блок вновь видимым</li>
 </ul>
 
 Ссылка на деплой: <a href="https://rawline.github.io/progress/">https://rawline.github.io/progress/<a>
